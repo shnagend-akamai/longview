@@ -30,7 +30,7 @@ echo "Installing dependencies in to: $BASE_DIR"
 check_builddep make
 check_builddep cc
 
-http_fetch http://cpanmin.us /tmp/cpanm
+http_fetch https://cpanmin.us /tmp/cpanm
 chmod +x /tmp/cpanm
 
 echo "==== Installing Longview core dependencies ===="
